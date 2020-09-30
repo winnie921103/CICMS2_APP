@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>臺北榮民總醫院-護理品質管理系統</title>
+    <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/pushy.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/RWD1024_up.css">
+    <link rel="stylesheet" href="../css/RWD768_up.css">
+    <link rel="stylesheet" href="../css/RWD767_down.css">
+    <link rel="stylesheet" href="../css/RWD_special.css">
+</head>
+<body class="iframepage Mainmenu">
+    <div class="container">
+        <span id="title">急救車管理及使用正確性</span>
+        <iframe id="myIframe" name="myIframe" width="100%" height="100%" frameborder="0" scrolling="yes" framespacing="0"
+            src="../page/Mainmenu_List.html" frameborder="0" scrolling="yes" noresize="noresize" vspale="0">
+        </iframe>
+    </div>
+        <div class="footer T_center">
+            <a href="../index.html"><img src="../image/home.png" alt=""></a>
+        </div>
+    <!--JS -->
+    <script type="text/javascript" src="../plugins/jquery/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../plugins/pushy.js"></script>
+    <script type="text/javascript" src="../js/custom.js"></script>
+    <script>
+          
+            var str = location.href;
+            var SrcLink = '';
+            if (str.indexOf('Emergency') > 1) {
+                 SrcLink = '/page/Mainmenu_Body.html';
+                 $('#title').text('急救車管理及使用正確性');
+            } else if (str.indexOf('Medicine') > 1) {
+                  SrcLink = '/page/Mainmenu_Body.html';
+                $('#title').text('給藥正確性及程序完整性');
+            } else if (str.indexOf('Body') > 1) {
+                  SrcLink = '/page/Mainmenu_Body.html';
+                   $('#title').text('身體約束護理正確性');
+           }
+           
+    </script>
+</body>
+
+</html>
