@@ -649,3 +649,30 @@ body.iframepage {
   margin: 5px;
   position: relative;
 }
+.Emergency .btn{
+  border: none;
+}
+.Emergency .fail_btn {
+  background: #f1bcbc;
+}
+
+.Emergency .pass_btn {
+  background: #daebd3;
+}
+
+.Emergency .null_btn {
+  background: #c9dde0;
+}
+
+.Emergency .fail_btn.btn-secondary:not(:disabled):not(.disabled).active {
+  background: #cf2a27;
+  color: #fff;
+}
+.Emergency .pass_btn.btn-secondary:not(:disabled):not(.disabled).active {
+  background: #009e0f;
+  color: #fff;
+}
+.Emergency .null_btn.btn-secondary:not(:disabled):not(.disabled).active {
+  background: #2b78e4;
+  color: #fff;
+}
