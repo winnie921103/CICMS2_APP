@@ -491,7 +491,7 @@ body.iframepage {
 /*Mainmenu*/
 
 .Mainmenu #title {
-  background-image: linear-gradient(45deg, #009df9  6%, #e8f2ff 100%);
+  background-image: linear-gradient(45deg, #009df9 6%, #e8f2ff 100%);
   text-align: left;
   padding: 5px 10px;
   color: #fff;
@@ -511,4 +511,81 @@ body.iframepage {
 
 .MainmenuList .table td {
   font-size: 1em;
+}
+
+/*Emergency */
+
+.Emergency .title {
+  background: #93dcd2;
+  text-align: left;
+  padding: 5px 10px;
+  color: #000;
+  font-size: 1.2em;
+  width: 100%;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.Emergency .title a {
+  float: right;
+}
+
+.Emergency .subtitle {
+  background: #e3e3e3;
+  text-align: left;
+  padding: 5px 10px;
+  color: #111;
+  font-size: 1.1em;
+  width: 100%;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.Emergency .subtitle a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  margin-right: 10px;
+  border-radius: 100px;
+  height: 30px;
+  width: 30px;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  color: #495057;
+  background: #c9ccd3;
+  background-image: linear-gradient( -180deg, rgba(255, 255, 255, 0.5) 11%, rgba(0, 0, 0, 0.5) 100%);
+  background-blend-mode: lighten;
+}
+
+.patient_content {
+  margin-top: 10px;
+}
+
+.patient_content .top label {
+  min-width: 6em;
+  border-radius: 5px;
+  background-color: #fff4e1;
+  padding: 7px 5px;
+  margin-right: 5px;
+  text-align: right;
+}
+
+.patient_content .top .pFormItem .divFormItem {
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.formList {
+  margin-top: 10px;
+}
+
+.main .patient_content .pFormItem .divFormItem .txBkFormItem {
+  min-width: 2em;
+}
+
+.timeDivFormItem {
+  width: 4em;
 }
