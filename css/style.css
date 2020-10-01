@@ -595,9 +595,13 @@ body.iframepage {
   margin: 5px;
   position: relative;
 }
+
 .Emergency .item_wrap {
   border: 1px solid;
+  overflow: scroll;
+  height: calc(100vh - 250px);
 }
+
 .Emergency .item_wrap ul {
   display: flex;
   padding: 15px;
@@ -636,5 +640,13 @@ body.iframepage {
 .Emergency .slick-slider .slick-track, .Emergency .slick-slider .slick-list {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
-  height: calc(100vh - 230px);
+}
+
+.slick-slider {
+  touch-action: auto;
+  -ms-touch-action: auto;
+}
+
+.slick-dots {
+  display: none!important;
 }
