@@ -5,7 +5,9 @@
         $('.slick-item').slick({
             dots: true,
             infinite: true,
-            arrows:false
+            arrows:false,
+            swipe:true,
+            touchMove:true
         });
         /*checkbox*/
         $(".checkboxAll").click(function(){
