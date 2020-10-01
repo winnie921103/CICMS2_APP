@@ -587,11 +587,6 @@ body.iframepage {
   width: 4em;
 }
 
-.Emergency .item_wrap {
-  overflow: scroll;
-  height: calc(100vh - 200px);
-}
-
 .Emergency .item_wrap ul {
   display: flex;
   padding: 10px;
@@ -644,14 +639,21 @@ body.iframepage {
   display: none!important;
 }
 
+.Emergency .item_wrap {
+  overflow: scroll;
+  height: calc(100vh - 250px);
+}
+
 .Emergency .slick-item {
-  height: calc(100vh - 200px);
+  height: calc(100vh - 250px);
   margin: 5px;
   position: relative;
 }
-.Emergency .btn{
+
+.Emergency .btn {
   border: none;
 }
+
 .Emergency .fail_btn {
   background: #f1bcbc;
 }
@@ -668,10 +670,12 @@ body.iframepage {
   background: #cf2a27;
   color: #fff;
 }
+
 .Emergency .pass_btn.btn-secondary:not(:disabled):not(.disabled).active {
   background: #009e0f;
   color: #fff;
 }
+
 .Emergency .null_btn.btn-secondary:not(:disabled):not(.disabled).active {
   background: #2b78e4;
   color: #fff;
