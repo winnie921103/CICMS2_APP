@@ -1,9 +1,11 @@
 (function ($) {
     $(document).ready(function () {
+        
         /*slick*/
         $('.slick-item').slick({
             dots: true,
-            infinite: true
+            infinite: true,
+            arrows:false
         });
         /*checkbox*/
         $(".checkboxAll").click(function(){

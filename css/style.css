@@ -589,3 +589,52 @@ body.iframepage {
 .timeDivFormItem {
   width: 4em;
 }
+
+.Emergency .slick-item {
+  height: calc(100vh - 220px);
+  margin: 5px;
+  position: relative;
+}
+.Emergency .item_wrap {
+  border: 1px solid;
+}
+.Emergency .item_wrap ul {
+  display: flex;
+  padding: 15px;
+  white-space: nowrap;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.Emergency .item_wrap li {
+  width: calc(100%/2);
+}
+
+.Emergency .item_wrap .item {
+  text-align: left;
+}
+
+.Emergency .content {
+  position: fixed;
+  width: 100%;
+}
+
+.Emergency .second_title {
+  text-align: left;
+  width: 100px;
+  width: 50%;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  background: #ed9b2e;
+  font-size: 1.1em;
+  color: #fff;
+  border-radius: 23px;
+  display: inline-block;
+}
+
+.Emergency .slick-slider .slick-track, .Emergency .slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  height: calc(100vh - 230px);
+}
