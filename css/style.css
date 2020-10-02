@@ -543,7 +543,6 @@ body.iframepage {
   outline: none;
   border: none;
   background: none;
-  margin-right: 10px;
 }
 
 .Emergency .title {
@@ -676,10 +675,18 @@ body.iframepage {
 .Emergency .item_wrap {
   overflow: scroll;
   height: calc(100vh - 200px);
+  height: 100%;
+  height: -moz-available;
+  height: -webkit-fill-available;
+  height: fill-available;
 }
 
 .Emergency .slick-item {
   height: calc(100vh - 200px);
+  height: 100%;
+  height: -moz-available;
+  height: -webkit-fill-available;
+  height: fill-available;
   margin: 5px;
   position: relative;
 }
