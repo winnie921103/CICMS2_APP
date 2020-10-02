@@ -527,18 +527,20 @@ body.iframepage {
 }
 
 /*Emergency */
-
+.Emergency .container{
+  padding: 0;
+}
 .Emergency .back_btn {
   outline: none;
   border: none;
   background: none;
-  margin-right: 1em;
+  margin-right: 10px;
 }
 
 .Emergency .title {
   background: #8BC6EC;
   text-align: left;
-  padding: 5px 10px;
+  padding: 5px 10px 5px 5px;
   color: #000;
   font-size: 1.2em;
   width: 100%;
