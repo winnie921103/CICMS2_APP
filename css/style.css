@@ -536,12 +536,9 @@ body.iframepage {
 
 }
 .Emergency .item_wrap {
-  /* overflow: scroll; */
-  /* height: calc(100vh - 200px); */
-  height: 100%;
-  height: -moz-available;
-  height: -webkit-fill-available;
-  height: fill-available;
+  overflow: scroll;
+  height: calc(100vh - 200px);
+
 }
 
 .Emergency .slick-item {
