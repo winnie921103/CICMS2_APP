@@ -677,6 +677,7 @@ body.iframepage {
 .Emergency .item_wrap {
   overflow: scroll;
   height: calc(100vh - 200px);
+  padding-bottom: 60px;
 }
 
 .Emergency .slick-item {
@@ -684,9 +685,9 @@ body.iframepage {
   margin: 5px;
   position: relative;
   height: 100%;
-  height: -moz-available;
+  /* height: -moz-available;
   height: -webkit-fill-available;
-  height: fill-available;
+  height: fill-available; */
 }
 
 .Emergency .btn {
