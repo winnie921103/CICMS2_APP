@@ -533,7 +533,10 @@ body.iframepage {
 }
 
 .Emergency {
-
+  height: 100%;
+  height: -moz-available;
+  height: -webkit-fill-available;
+  height: fill-available;
 }
 .Emergency .item_wrap {
   overflow: scroll;
@@ -550,7 +553,6 @@ body.iframepage {
 .Emergency .back_btn {
   outline: none;
   border: none;
-  background: #fff;
   z-index: 999;
   position: relative;
 }
