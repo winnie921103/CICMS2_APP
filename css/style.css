@@ -533,12 +533,23 @@ body.iframepage {
 }
 
 .Emergency {
+
+}
+.Emergency .item_wrap {
+  /* overflow: scroll; */
+  /* height: calc(100vh - 200px); */
   height: 100%;
   height: -moz-available;
   height: -webkit-fill-available;
   height: fill-available;
 }
 
+.Emergency .slick-item {
+  height: calc(100vh - 200px);
+  margin: 5px;
+  position: relative;
+
+}
 .Emergency .back_btn {
   outline: none;
   border: none;
@@ -674,20 +685,7 @@ body.iframepage {
   display: none!important;
 }
 
-.Emergency .item_wrap {
-  overflow: scroll;
-  height: calc(100vh - 200px);
-}
 
-.Emergency .slick-item {
-  height: calc(100vh - 200px);
-  margin: 5px;
-  position: relative;
-  height: 100%;
-  height: -moz-available;
-  height: -webkit-fill-available;
-  height: fill-available;
-}
 
 .Emergency .btn {
   border: none;
