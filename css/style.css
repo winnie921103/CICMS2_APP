@@ -527,9 +527,18 @@ body.iframepage {
 }
 
 /*Emergency */
-.Emergency .container{
+
+.Emergency .container {
   padding: 0;
 }
+
+.Emergency {
+  height: 100%;
+  height: -moz-available;
+  height: -webkit-fill-available;
+  height: fill-available;
+}
+
 .Emergency .back_btn {
   outline: none;
   border: none;
