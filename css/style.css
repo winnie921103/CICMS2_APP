@@ -171,9 +171,11 @@ body .btn:disabled:hover {
 .red, a.red:hover {
   color: #fc4f4f;
 }
-.green{
+
+.green {
   color: #009e0f;
 }
+
 .blue {
   color: #0070c0;
 }
@@ -508,8 +510,16 @@ body.iframepage {
   text-align: left;
 }
 
+.MainmenuList .table tr:nth-of-type(odd) {
+  background: #fffbf3;
+}
+
+.MainmenuList .table tr:nth-of-type(even) {
+  background: #fff;
+}
+
 .MainmenuList .table th {
-  background: #b4c6e7;
+  background: #f6dee2;
 }
 
 .MainmenuList .table td {
@@ -517,6 +527,13 @@ body.iframepage {
 }
 
 /*Emergency */
+
+.Emergency .back_btn {
+  outline: none;
+  border: none;
+  background: none;
+  margin-right: 1em;
+}
 
 .Emergency .title {
   background: #8BC6EC;
