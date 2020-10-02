@@ -538,30 +538,13 @@ body.iframepage {
   height: -webkit-fill-available;
   height: fill-available;
 }
-.Emergency .item_wrap {
-  overflow: scroll;
-  height: calc(100vh - 200px);
-  height: 100%;
-  height: -moz-available;
-  height: -webkit-fill-available;
-  height: fill-available;
-}
 
-.Emergency .slick-item {
-  height: calc(100vh - 200px);
-  margin: 5px;
-  position: relative;
-  height: 100%;
-  height: -moz-available;
-  height: -webkit-fill-available;
-  height: fill-available;
-}
 .Emergency .back_btn {
   outline: none;
   border: none;
+  background: none;
   z-index: 999;
   position: relative;
-  background: none;
 }
 
 .Emergency .title {
@@ -691,7 +674,20 @@ body.iframepage {
   display: none!important;
 }
 
+.Emergency .item_wrap {
+  overflow: scroll;
+  height: calc(100vh - 200px);
+}
 
+.Emergency .slick-item {
+  height: calc(100vh - 200px);
+  margin: 5px;
+  position: relative;
+  height: 100%;
+  height: -moz-available;
+  height: -webkit-fill-available;
+  height: fill-available;
+}
 
 .Emergency .btn {
   border: none;
