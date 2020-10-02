@@ -542,7 +542,7 @@ body.iframepage {
 .Emergency .back_btn {
   outline: none;
   border: none;
-  background: none;
+  background: transparent;
   z-index: 999;
   position: relative;
 }
