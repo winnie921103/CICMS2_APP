@@ -19,11 +19,19 @@
 
 <body class="Emergency">
     <div class="top">
-        <!--時間-->
-        <span class="title">
+        <div class="head between">
             <button class="back_btn" onclick="history.back()"><i class="fas fa-chevron-left"></i></button>
+            <div class="user_text flex">
+                <i class="far fa-user"></i>
+                <div class="user">
+                    <span class="account">nurs02</span>
+                    <span class="name">顏秀芳</span>
+                </div>
+            </div>
+        </div>
+        <span class="title">
             <span>部級-A063-陳大珍</span>
-            <a href="" class="btn">存檔</a>
+        <a href="" class="btn">存檔</a>
         </span>
         <div class="formList flex">
             <label>時間：</label>
@@ -285,7 +293,7 @@
             <span>項次：</span>
             <span>
                 <span class="currentnumber red"></span>
-                <span class="totalnumber"></span>
+            <span class="totalnumber"></span>
             </span>
 
         </div>
@@ -309,7 +317,7 @@
         var $total = $('.totalnumber');
         var $slickElement = $('.slick-item');
 
-        $slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+        $slickElement.on('init reInit afterChange', function(event, slick, currentSlide, nextSlide) {
             //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
             if (!slick.$dots) {
                 return;
@@ -320,7 +328,6 @@
             $total.text(('/' + ' ' + slick.$dots[0].children.length))
 
         });
-
     </script>
 </body>
 
