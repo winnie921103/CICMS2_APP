@@ -526,18 +526,19 @@ body.iframepage {
     font-size: 1em;
     border: 3px solid #5ecec0;
     background: #5ecec0;
-    padding: 5px;
-    border-radius: 9px;
+    padding: 3px;
+    border-radius: 20px;
 }
 
 .user_text {
     margin: 5px;
-    padding: 2px 15px;
+    padding: 3px 10px;
     background-color: #fff;
     color: #009bff;
     transform: translateY(0px);
     border: 1px solid #ccc;
     font-weight: bold;
+    border-radius: 5px;
 }
 
 .user_text .user {
