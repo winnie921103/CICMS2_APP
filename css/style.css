@@ -764,6 +764,8 @@ body.iframepage {
 .Emergency .btn {
     border: none;
     background: #ddd;
+    -webkit-transition: none; 
+     transition: none;
 }
 .Emergency .btn:hover{
     color: #000;
