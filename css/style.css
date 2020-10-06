@@ -765,7 +765,11 @@ body.iframepage {
     border: none;
     background: #ddd;
 }
-
+.Emergency .btn:hover{
+    color: #000;
+    transform: none;
+    box-shadow: none;
+}
 .Emergency .fail_btn.btn-secondary:not(:disabled):not(.disabled).active {
     background: #cf2a27;
     color: #fff;
